@@ -16,7 +16,7 @@
 
 ```javascript
 const irvin = {
-  nombre:      "Irvin Quintanar",
+  nombre:      "Irving Quintanar",
   ubicacion:   "México 🇲🇽",
   rol:         "Full Stack Developer & Automation Enthusiast",
   enfoque:     ["Web Development", "AI Tools", "Workflow Automation"],
