@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=B344F5&center=true&vCenter=true&width=650&lines=Hola%2C+soy+Irving+%F0%9F%91%8B%F0%9F%8F%BB;Full+Stack+Web+Developer;Automatizo+flujos+con+n8n+%2B+IA+%F0%9F%A4%96;HTML+%7C+CSS+%7C+JavaScript+%7C+Python;Construyendo+el+futuro+una+l%C3%ADnea+a+la+vez+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=B344F5&center=true&vCenter=true&width=650&lines=Hola%2C+soy+Irving+%F0%9F%91%8B%F0%9F%8F%BB;Full+Stack+Web+Developer;Backend+con+FastAPI+%2B+PostgreSQL+%2B+Redis;Automatizo+flujos+con+n8n+%2B+IA+%F0%9F%A4%96;Construyendo+el+futuro+una+l%C3%ADnea+a+la+vez+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 </div>
 
@@ -13,6 +13,7 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=sick234&label=Visitas+al+perfil&color=7B2FBE&style=for-the-badge" alt="profile views"/>
   <img src="https://img.shields.io/github/followers/sick234?label=Seguidores&style=for-the-badge&color=9B59B6&labelColor=1a0a2e" alt="followers"/>
+  <img src="https://img.shields.io/github/stars/sick234?label=Stars&style=for-the-badge&color=B344F5&labelColor=1a0a2e" alt="stars"/>
 </div>
 
 ---
@@ -26,15 +27,18 @@ const irving = {
   nombre:      "Irving Quintanar",
   ubicacion:   "México 🇲🇽",
   rol:         ["Full Stack Developer",
+                "Backend Engineer",
                 "Automation Engineer",
                 "AI Power User"],
   tecnologias: {
+    backend:   ["FastAPI", "Python", "Celery"],
+    data:      ["PostgreSQL", "Redis", "SQLAlchemy"],
     frontend:  ["HTML5", "CSS3", "JavaScript"],
-    backend:   ["Python", "Java", "C"],
-    automation:["n8n", "AI Tools", "Workflows"],
+    devops:    ["Docker", "GitHub Actions", "Nginx"],
+    ai:        ["Groq", "Llama 3", "n8n"],
   },
-  aprendiendo: "Node.js · REST APIs · Python avanzado",
-  meta2026:    "Automatizar todo lo automatizable 🤖",
+  aprendiendo: "Arquitectura asíncrona · Observabilidad · AWS",
+  meta2026:    "Shippear APIs production-grade con IA 🤖",
   funFact:     "La IA no reemplaza el talento, lo multiplica",
 };
 ```
@@ -47,21 +51,60 @@ const irving = {
 
 <div align="center">
 
+### 🔧 Backend & APIs
+<img src="https://skillicons.dev/icons?i=fastapi,python,java,c&theme=dark" />
+
+### 🗄️ Data & Infraestructura
+<img src="https://skillicons.dev/icons?i=postgres,redis,docker,nginx,linux&theme=dark" />
+
 ### 🌐 Frontend
 <img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" />
 
-### ⚙️ Backend & Lenguajes
-<img src="https://skillicons.dev/icons?i=python,java,c&theme=dark" />
-
 ### 🤖 Automatización & IA
-<img src="https://skillicons.dev/icons?i=&theme=dark" />
 
+![Groq](https://img.shields.io/badge/Groq-Llama%203-F55036?style=for-the-badge&logo=groq&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-AI%20Tools-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+![OpenAI](https://img.shields.io/badge/ChatGPT-AI%20Tools-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-Anthropic-CC785C?style=for-the-badge&logoColor=white)
 
-### 🧰 Herramientas
-<img src="https://skillicons.dev/icons?i=git,github,vscode,windows&theme=dark" />
+### 🧰 Herramientas & DevOps
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,postman,windows&theme=dark" />
+
+### 🧪 Testing & Quality
+
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=for-the-badge&logo=ruff&logoColor=black)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Alembic](https://img.shields.io/badge/Alembic-Migrations-4B8BBE?style=for-the-badge&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+
+</div>
+
+---
+
+## 🌟 Proyecto Destacado
+
+<div align="center">
+
+<a href="https://github.com/sick234/inteligenceapi">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sick234&repo=inteligenceapi&theme=midnight-purple&hide_border=true&bg_color=0D0717&title_color=B344F5&icon_color=9B59B6&text_color=ffffff" />
+</a>
+
+### 📄 Document Intelligence API
+
+**API asíncrona production-grade para extracción e inteligencia de documentos con LLMs.**
+
+Sube un PDF/TXT → la API lo procesa en background con Celery → Groq/Llama 3 genera resumen y métricas → recuperas el resultado vía JWT.
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-Llama%203-F55036?style=flat-square&logo=groq&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+
+**Highlights:** auth JWT · rate-limiting · magic-byte sniffing · protección path-traversal · hardening matrix · CI/CD con GitHub Actions · migraciones con Alembic.
 
 </div>
 
@@ -98,11 +141,12 @@ const irving = {
 
 <div align="center">
 
-| Proyecto | Descripción | Estado |
-|----------|-------------|--------|
-| 🛒 **Páginas Web de Ventas** | E-commerce con HTML, CSS & JS | 🟢 En progreso |
-| 🤖 **Flujos n8n + IA** | Automatización de procesos con inteligencia artificial | 🟡 Explorando |
-| 🐍 **Python Scripts** | Automatización y scripting con Python | 🟡 Aprendiendo |
+| Proyecto | Descripción | Stack | Estado |
+|----------|-------------|-------|--------|
+| 📄 **[Document Intelligence API](https://github.com/sick234/inteligenceapi)** | API async para procesamiento de PDFs con LLM | FastAPI · Celery · Postgres · Redis · Groq | 🟢 Activo |
+| 🛒 **Páginas Web de Ventas** | E-commerce con HTML, CSS & JS | HTML · CSS · JS | 🟢 En progreso |
+| 🤖 **Flujos n8n + IA** | Automatización de procesos con IA | n8n · OpenAI · Webhooks | 🟡 Explorando |
+| 🐍 **Python Scripts** | Automatización y scripting | Python · Bash | 🟡 Aprendiendo |
 
 </div>
 
@@ -115,6 +159,8 @@ const irving = {
 > *"La automatización no reemplaza el talento — lo multiplica."*
 
 > *"Un buen workflow hace el trabajo de diez personas."*
+
+> *"Ship boring APIs. Resolverán problemas por años."*
 
 </div>
 
